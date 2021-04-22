@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Black &amp; White</title>
+    <title>天辉 &amp; 夜魇</title>
 
     <!-- meta -->
     <meta charset="UTF-8">
@@ -130,5 +130,14 @@
     hljs.initHighlightingOnLoad();
     hljs.initLineNumbersOnLoad();
 </script>
+<script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+  <script>
+    //默认使用的萌娘
+    L2Dwidget.init({ "model": { jsonPath:
+          "https://unpkg.com/live2d-widget-model-shizuku@1.0.5/assets/shizuku.model.json",
+	       "scale": 1 }, "display": { "position": "right", "width": 110, "height": 150,
+	       "hOffset": 0, "vOffset": -20 }, "mobile": { "show": true, "scale": 0.5 },
+	       "react": { "opacityDefault": 1   , "opacityOnHover": 0.1 } });
+  </script>
 </body>
 </html>
