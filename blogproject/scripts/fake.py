@@ -35,17 +35,17 @@ if __name__ == "__main__":
     print("create a blog user")
     user = User.objects.create_superuser("admin", "admin@hellogithub.com", "admin")
 
-    category_list = ["Python学习笔记", "开源项目", "工具资源", "程序员生活感悟", "test category"]
+    category_list = ["原神", "软件测试", "Django", "Nginx", "CategoryTest"]
     tag_list = [
         "django",
         "Python",
-        "Pipenv",
-        "Docker",
+        "ICU",
+        "原神",
         "Nginx",
-        "Elasticsearch",
-        "Gunicorn",
+        "Dota2",
+        "OMG",
         "Supervisor",
-        "test tag",
+        "TagTest",
     ]
     a_year_ago = timezone.now() - timedelta(days=365)
 
